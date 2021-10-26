@@ -1,10 +1,15 @@
 name: Create Archive
-on: [push]
+on:
+  push:
+    branches:
+    - master
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
@@ -17,4 +22,3 @@ jobs:
       with:
         artifacts: "latest.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
-        REPO_OWNER: a-u-s-e-r-n-a-m-e
