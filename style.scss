@@ -1,0 +1,2680 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uv45zc');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uv45zc#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uv45zc') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uv45zc') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uv45zc##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="weo-"], [class*=" weo-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.weo-cloud {
+  &:before {
+    content: $weo-cloud; 
+  }
+}
+.weo-cloud-alert {
+  &:before {
+    content: $weo-cloud-alert; 
+  }
+}
+.weo-cloud-disconnect {
+  &:before {
+    content: $weo-cloud-disconnect; 
+  }
+}
+.weo-cloud-download {
+  &:before {
+    content: $weo-cloud-download; 
+  }
+}
+.weo-cloud-error {
+  &:before {
+    content: $weo-cloud-error; 
+  }
+}
+.weo-cloud-synk {
+  &:before {
+    content: $weo-cloud-synk; 
+  }
+}
+.weo-cloud-upload {
+  &:before {
+    content: $weo-cloud-upload; 
+  }
+}
+.weo-cloud-waiting {
+  &:before {
+    content: $weo-cloud-waiting; 
+  }
+}
+.weo-element-battery {
+  &:before {
+    content: $weo-element-battery; 
+  }
+}
+.weo-element-bluetooth {
+  &:before {
+    content: $weo-element-bluetooth; 
+  }
+}
+.weo-element-chat {
+  &:before {
+    content: $weo-element-chat; 
+  }
+}
+.weo-element-document {
+  &:before {
+    content: $weo-element-document; 
+  }
+}
+.weo-element-loader {
+  &:before {
+    content: $weo-element-loader; 
+  }
+}
+.weo-element-mouse {
+  &:before {
+    content: $weo-element-mouse; 
+  }
+}
+.weo-element-share {
+  &:before {
+    content: $weo-element-share; 
+  }
+}
+.weo-element-wifi {
+  &:before {
+    content: $weo-element-wifi; 
+  }
+}
+.weo-navigation-arrow-down {
+  &:before {
+    content: $weo-navigation-arrow-down; 
+  }
+}
+.weo-navigation-arrow-left {
+  &:before {
+    content: $weo-navigation-arrow-left; 
+  }
+}
+.weo-navigation-arrow-right {
+  &:before {
+    content: $weo-navigation-arrow-right; 
+  }
+}
+.weo-navigation-arrow-up {
+  &:before {
+    content: $weo-navigation-arrow-up; 
+  }
+}
+.weo-navigation-cross {
+  &:before {
+    content: $weo-navigation-cross; 
+  }
+}
+.weo-navigation-plus {
+  &:before {
+    content: $weo-navigation-plus; 
+  }
+}
+.weo-navigation-refresh {
+  &:before {
+    content: $weo-navigation-refresh; 
+  }
+}
+.weo-navigation-reload {
+  &:before {
+    content: $weo-navigation-reload; 
+  }
+}
+.weo-activity {
+  &:before {
+    content: $weo-activity; 
+  }
+}
+.weo-add {
+  &:before {
+    content: $weo-add; 
+  }
+}
+.weo-add-circle {
+  &:before {
+    content: $weo-add-circle; 
+  }
+}
+.weo-add-squre {
+  &:before {
+    content: $weo-add-squre; 
+  }
+}
+.weo-airplane {
+  &:before {
+    content: $weo-airplane; 
+  }
+}
+.weo-airplane-landing {
+  &:before {
+    content: $weo-airplane-landing; 
+  }
+}
+.weo-airplane-takeoff {
+  &:before {
+    content: $weo-airplane-takeoff; 
+  }
+}
+.weo-airplay {
+  &:before {
+    content: $weo-airplay; 
+  }
+}
+.weo-album {
+  &:before {
+    content: $weo-album; 
+  }
+}
+.weo-alerm {
+  &:before {
+    content: $weo-alerm; 
+  }
+}
+.weo-alert {
+  &:before {
+    content: $weo-alert; 
+  }
+}
+.weo-alert-circle {
+  &:before {
+    content: $weo-alert-circle; 
+  }
+}
+.weo-align-bottom {
+  &:before {
+    content: $weo-align-bottom; 
+  }
+}
+.weo-align-horizontally {
+  &:before {
+    content: $weo-align-horizontally; 
+  }
+}
+.weo-align-left {
+  &:before {
+    content: $weo-align-left; 
+  }
+}
+.weo-align-right {
+  &:before {
+    content: $weo-align-right; 
+  }
+}
+.weo-align-top {
+  &:before {
+    content: $weo-align-top; 
+  }
+}
+.weo-align-vertically {
+  &:before {
+    content: $weo-align-vertically; 
+  }
+}
+.weo-angle {
+  &:before {
+    content: $weo-angle; 
+  }
+}
+.weo-app {
+  &:before {
+    content: $weo-app; 
+  }
+}
+.weo-arrow-down {
+  &:before {
+    content: $weo-arrow-down; 
+  }
+}
+.weo-arrow-left {
+  &:before {
+    content: $weo-arrow-left; 
+  }
+}
+.weo-arrow-left-down {
+  &:before {
+    content: $weo-arrow-left-down; 
+  }
+}
+.weo-arrow-left-up {
+  &:before {
+    content: $weo-arrow-left-up; 
+  }
+}
+.weo-arrow-outline-down {
+  &:before {
+    content: $weo-arrow-outline-down; 
+  }
+}
+.weo-arrow-outline-left {
+  &:before {
+    content: $weo-arrow-outline-left; 
+  }
+}
+.weo-arrow-outline-right {
+  &:before {
+    content: $weo-arrow-outline-right; 
+  }
+}
+.weo-arrow-outline-up {
+  &:before {
+    content: $weo-arrow-outline-up; 
+  }
+}
+.weo-arrow-right {
+  &:before {
+    content: $weo-arrow-right; 
+  }
+}
+.weo-arrow-right-down {
+  &:before {
+    content: $weo-arrow-right-down; 
+  }
+}
+.weo-arrow-right-up {
+  &:before {
+    content: $weo-arrow-right-up; 
+  }
+}
+.weo-arrow-up {
+  &:before {
+    content: $weo-arrow-up; 
+  }
+}
+.weo-artboard {
+  &:before {
+    content: $weo-artboard; 
+  }
+}
+.weo-attachment {
+  &:before {
+    content: $weo-attachment; 
+  }
+}
+.weo-attachment-s {
+  &:before {
+    content: $weo-attachment-s; 
+  }
+}
+.weo-award {
+  &:before {
+    content: $weo-award; 
+  }
+}
+.weo-badminton {
+  &:before {
+    content: $weo-badminton; 
+  }
+}
+.weo-bag {
+  &:before {
+    content: $weo-bag; 
+  }
+}
+.weo-bar-chart {
+  &:before {
+    content: $weo-bar-chart; 
+  }
+}
+.weo-baseball {
+  &:before {
+    content: $weo-baseball; 
+  }
+}
+.weo-basketball {
+  &:before {
+    content: $weo-basketball; 
+  }
+}
+.weo-battery {
+  &:before {
+    content: $weo-battery; 
+  }
+}
+.weo-battery-charging {
+  &:before {
+    content: $weo-battery-charging; 
+  }
+}
+.weo-battery-low {
+  &:before {
+    content: $weo-battery-low; 
+  }
+}
+.weo-battery-off {
+  &:before {
+    content: $weo-battery-off; 
+  }
+}
+.weo-bear {
+  &:before {
+    content: $weo-bear; 
+  }
+}
+.weo-beer {
+  &:before {
+    content: $weo-beer; 
+  }
+}
+.weo-bicycle {
+  &:before {
+    content: $weo-bicycle; 
+  }
+}
+.weo-bluetooth {
+  &:before {
+    content: $weo-bluetooth; 
+  }
+}
+.weo-bluetooth-off {
+  &:before {
+    content: $weo-bluetooth-off; 
+  }
+}
+.weo-book {
+  &:before {
+    content: $weo-book; 
+  }
+}
+.weo-book-2 {
+  &:before {
+    content: $weo-book-2; 
+  }
+}
+.weo-bookmark {
+  &:before {
+    content: $weo-bookmark; 
+  }
+}
+.weo-bookmark-add {
+  &:before {
+    content: $weo-bookmark-add; 
+  }
+}
+.weo-bookmark-remove {
+  &:before {
+    content: $weo-bookmark-remove; 
+  }
+}
+.weo-book-open {
+  &:before {
+    content: $weo-book-open; 
+  }
+}
+.weo-bottle {
+  &:before {
+    content: $weo-bottle; 
+  }
+}
+.weo-box {
+  &:before {
+    content: $weo-box; 
+  }
+}
+.weo-bra {
+  &:before {
+    content: $weo-bra; 
+  }
+}
+.weo-briefcase {
+  &:before {
+    content: $weo-briefcase; 
+  }
+}
+.weo-browser {
+  &:before {
+    content: $weo-browser; 
+  }
+}
+.weo-brush {
+  &:before {
+    content: $weo-brush; 
+  }
+}
+.weo-bucket {
+  &:before {
+    content: $weo-bucket; 
+  }
+}
+.weo-bug {
+  &:before {
+    content: $weo-bug; 
+  }
+}
+.weo-bus {
+  &:before {
+    content: $weo-bus; 
+  }
+}
+.weo-calculator {
+  &:before {
+    content: $weo-calculator; 
+  }
+}
+.weo-calender {
+  &:before {
+    content: $weo-calender; 
+  }
+}
+.weo-calender-add {
+  &:before {
+    content: $weo-calender-add; 
+  }
+}
+.weo-calender-check {
+  &:before {
+    content: $weo-calender-check; 
+  }
+}
+.weo-camera {
+  &:before {
+    content: $weo-camera; 
+  }
+}
+.weo-camera-focus {
+  &:before {
+    content: $weo-camera-focus; 
+  }
+}
+.weo-camera-off {
+  &:before {
+    content: $weo-camera-off; 
+  }
+}
+.weo-camera-switch {
+  &:before {
+    content: $weo-camera-switch; 
+  }
+}
+.weo-capsule {
+  &:before {
+    content: $weo-capsule; 
+  }
+}
+.weo-car {
+  &:before {
+    content: $weo-car; 
+  }
+}
+.weo-caret-down {
+  &:before {
+    content: $weo-caret-down; 
+  }
+}
+.weo-caret-up {
+  &:before {
+    content: $weo-caret-up; 
+  }
+}
+.weo-cat {
+  &:before {
+    content: $weo-cat; 
+  }
+}
+.weo-cat-angry {
+  &:before {
+    content: $weo-cat-angry; 
+  }
+}
+.weo-category {
+  &:before {
+    content: $weo-category; 
+  }
+}
+.weo-cat-laugh {
+  &:before {
+    content: $weo-cat-laugh; 
+  }
+}
+.weo-cat-stripe {
+  &:before {
+    content: $weo-cat-stripe; 
+  }
+}
+.weo-check {
+  &:before {
+    content: $weo-check; 
+  }
+}
+.weo-checkbox {
+  &:before {
+    content: $weo-checkbox; 
+  }
+}
+.weo-check-circle {
+  &:before {
+    content: $weo-check-circle; 
+  }
+}
+.weo-check-square {
+  &:before {
+    content: $weo-check-square; 
+  }
+}
+.weo-chevrons-left {
+  &:before {
+    content: $weo-chevrons-left; 
+  }
+}
+.weo-chevrons-right {
+  &:before {
+    content: $weo-chevrons-right; 
+  }
+}
+.weo-chicken {
+  &:before {
+    content: $weo-chicken; 
+  }
+}
+.weo-city {
+  &:before {
+    content: $weo-city; 
+  }
+}
+.weo-clipboard {
+  &:before {
+    content: $weo-clipboard; 
+  }
+}
+.weo-close {
+  &:before {
+    content: $weo-close; 
+  }
+}
+.weo-close-circle {
+  &:before {
+    content: $weo-close-circle; 
+  }
+}
+.weo-close-square {
+  &:before {
+    content: $weo-close-square; 
+  }
+}
+.weo-cloth {
+  &:before {
+    content: $weo-cloth; 
+  }
+}
+.weo-cloud-alt {
+  &:before {
+    content: $weo-cloud-alt; 
+  }
+}
+.weo-cloud-off {
+  &:before {
+    content: $weo-cloud-off; 
+  }
+}
+.weo-code {
+  &:before {
+    content: $weo-code; 
+  }
+}
+.weo-coffee {
+  &:before {
+    content: $weo-coffee; 
+  }
+}
+.weo-coin {
+  &:before {
+    content: $weo-coin; 
+  }
+}
+.weo-color {
+  &:before {
+    content: $weo-color; 
+  }
+}
+.weo-column {
+  &:before {
+    content: $weo-column; 
+  }
+}
+.weo-compass {
+  &:before {
+    content: $weo-compass; 
+  }
+}
+.weo-contact {
+  &:before {
+    content: $weo-contact; 
+  }
+}
+.weo-conversation {
+  &:before {
+    content: $weo-conversation; 
+  }
+}
+.weo-copy {
+  &:before {
+    content: $weo-copy; 
+  }
+}
+.weo-corner-down-left {
+  &:before {
+    content: $weo-corner-down-left; 
+  }
+}
+.weo-corner-down-right {
+  &:before {
+    content: $weo-corner-down-right; 
+  }
+}
+.weo-countdown {
+  &:before {
+    content: $weo-countdown; 
+  }
+}
+.weo-credit-card {
+  &:before {
+    content: $weo-credit-card; 
+  }
+}
+.weo-crop {
+  &:before {
+    content: $weo-crop; 
+  }
+}
+.weo-cursor {
+  &:before {
+    content: $weo-cursor; 
+  }
+}
+.weo-dashboard {
+  &:before {
+    content: $weo-dashboard; 
+  }
+}
+.weo-delete {
+  &:before {
+    content: $weo-delete; 
+  }
+}
+.weo-devil {
+  &:before {
+    content: $weo-devil; 
+  }
+}
+.weo-diamond {
+  &:before {
+    content: $weo-diamond; 
+  }
+}
+.weo-disc {
+  &:before {
+    content: $weo-disc; 
+  }
+}
+.weo-dislike {
+  &:before {
+    content: $weo-dislike; 
+  }
+}
+.weo-distribute-horizontally {
+  &:before {
+    content: $weo-distribute-horizontally; 
+  }
+}
+.weo-distribute-vertically {
+  &:before {
+    content: $weo-distribute-vertically; 
+  }
+}
+.weo-diving {
+  &:before {
+    content: $weo-diving; 
+  }
+}
+.weo-dog {
+  &:before {
+    content: $weo-dog; 
+  }
+}
+.weo-dog-angry {
+  &:before {
+    content: $weo-dog-angry; 
+  }
+}
+.weo-dog-husky {
+  &:before {
+    content: $weo-dog-husky; 
+  }
+}
+.weo-dog-laugh {
+  &:before {
+    content: $weo-dog-laugh; 
+  }
+}
+.weo-dog-with-bell {
+  &:before {
+    content: $weo-dog-with-bell; 
+  }
+}
+.weo-donate {
+  &:before {
+    content: $weo-donate; 
+  }
+}
+.weo-donut-chart {
+  &:before {
+    content: $weo-donut-chart; 
+  }
+}
+.weo-dowload {
+  &:before {
+    content: $weo-dowload; 
+  }
+}
+.weo-dowload-cloud {
+  &:before {
+    content: $weo-dowload-cloud; 
+  }
+}
+.weo-dresses {
+  &:before {
+    content: $weo-dresses; 
+  }
+}
+.weo-drink {
+  &:before {
+    content: $weo-drink; 
+  }
+}
+.weo-drop {
+  &:before {
+    content: $weo-drop; 
+  }
+}
+.weo-dropper {
+  &:before {
+    content: $weo-dropper; 
+  }
+}
+.weo-edit-1 {
+  &:before {
+    content: $weo-edit-1; 
+  }
+}
+.weo-eject {
+  &:before {
+    content: $weo-eject; 
+  }
+}
+.weo-emergency {
+  &:before {
+    content: $weo-emergency; 
+  }
+}
+.weo-emoji {
+  &:before {
+    content: $weo-emoji; 
+  }
+}
+.weo-external-link {
+  &:before {
+    content: $weo-external-link; 
+  }
+}
+.weo-eye {
+  &:before {
+    content: $weo-eye; 
+  }
+}
+.weo-eye-off {
+  &:before {
+    content: $weo-eye-off; 
+  }
+}
+.weo-factory {
+  &:before {
+    content: $weo-factory; 
+  }
+}
+.weo-fast-forward {
+  &:before {
+    content: $weo-fast-forward; 
+  }
+}
+.weo-favorite {
+  &:before {
+    content: $weo-favorite; 
+  }
+}
+.weo-favorite-off {
+  &:before {
+    content: $weo-favorite-off; 
+  }
+}
+.weo-female {
+  &:before {
+    content: $weo-female; 
+  }
+}
+.weo-file {
+  &:before {
+    content: $weo-file; 
+  }
+}
+.weo-file-add {
+  &:before {
+    content: $weo-file-add; 
+  }
+}
+.weo-film {
+  &:before {
+    content: $weo-film; 
+  }
+}
+.weo-filter {
+  &:before {
+    content: $weo-filter; 
+  }
+}
+.weo-fire {
+  &:before {
+    content: $weo-fire; 
+  }
+}
+.weo-fish {
+  &:before {
+    content: $weo-fish; 
+  }
+}
+.weo-flag {
+  &:before {
+    content: $weo-flag; 
+  }
+}
+.weo-flash {
+  &:before {
+    content: $weo-flash; 
+  }
+}
+.weo-flash-off {
+  &:before {
+    content: $weo-flash-off; 
+  }
+}
+.weo-flip-horizontal {
+  &:before {
+    content: $weo-flip-horizontal; 
+  }
+}
+.weo-flip-vertical {
+  &:before {
+    content: $weo-flip-vertical; 
+  }
+}
+.weo-floder {
+  &:before {
+    content: $weo-floder; 
+  }
+}
+.weo-floder-add {
+  &:before {
+    content: $weo-floder-add; 
+  }
+}
+.weo-food {
+  &:before {
+    content: $weo-food; 
+  }
+}
+.weo-fridge {
+  &:before {
+    content: $weo-fridge; 
+  }
+}
+.weo-fullscreen {
+  &:before {
+    content: $weo-fullscreen; 
+  }
+}
+.weo-fullscreen-exit {
+  &:before {
+    content: $weo-fullscreen-exit; 
+  }
+}
+.weo-game {
+  &:before {
+    content: $weo-game; 
+  }
+}
+.weo-gas-station {
+  &:before {
+    content: $weo-gas-station; 
+  }
+}
+.weo-ghost {
+  &:before {
+    content: $weo-ghost; 
+  }
+}
+.weo-gift {
+  &:before {
+    content: $weo-gift; 
+  }
+}
+.weo-glass {
+  &:before {
+    content: $weo-glass; 
+  }
+}
+.weo-google-cast {
+  &:before {
+    content: $weo-google-cast; 
+  }
+}
+.weo-google-cast-connected {
+  &:before {
+    content: $weo-google-cast-connected; 
+  }
+}
+.weo-gradient {
+  &:before {
+    content: $weo-gradient; 
+  }
+}
+.weo-graph {
+  &:before {
+    content: $weo-graph; 
+  }
+}
+.weo-grave {
+  &:before {
+    content: $weo-grave; 
+  }
+}
+.weo-grid {
+  &:before {
+    content: $weo-grid; 
+  }
+}
+.weo-headphone {
+  &:before {
+    content: $weo-headphone; 
+  }
+}
+.weo-health {
+  &:before {
+    content: $weo-health; 
+  }
+}
+.weo-help {
+  &:before {
+    content: $weo-help; 
+  }
+}
+.weo-high-heels {
+  &:before {
+    content: $weo-high-heels; 
+  }
+}
+.weo-home {
+  &:before {
+    content: $weo-home; 
+  }
+}
+.weo-hourglass {
+  &:before {
+    content: $weo-hourglass; 
+  }
+}
+.weo-icecream {
+  &:before {
+    content: $weo-icecream; 
+  }
+}
+.weo-inbox {
+  &:before {
+    content: $weo-inbox; 
+  }
+}
+.weo-indent-decrease {
+  &:before {
+    content: $weo-indent-decrease; 
+  }
+}
+.weo-indent-increase {
+  &:before {
+    content: $weo-indent-increase; 
+  }
+}
+.weo-info {
+  &:before {
+    content: $weo-info; 
+  }
+}
+.weo-key {
+  &:before {
+    content: $weo-key; 
+  }
+}
+.weo-keyboard {
+  &:before {
+    content: $weo-keyboard; 
+  }
+}
+.weo-label {
+  &:before {
+    content: $weo-label; 
+  }
+}
+.weo-landscape {
+  &:before {
+    content: $weo-landscape; 
+  }
+}
+.weo-language {
+  &:before {
+    content: $weo-language; 
+  }
+}
+.weo-laptop {
+  &:before {
+    content: $weo-laptop; 
+  }
+}
+.weo-layers {
+  &:before {
+    content: $weo-layers; 
+  }
+}
+.weo-light {
+  &:before {
+    content: $weo-light; 
+  }
+}
+.weo-light-2 {
+  &:before {
+    content: $weo-light-2; 
+  }
+}
+.weo-lightning {
+  &:before {
+    content: $weo-lightning; 
+  }
+}
+.weo-like {
+  &:before {
+    content: $weo-like; 
+  }
+}
+.weo-line-chart {
+  &:before {
+    content: $weo-line-chart; 
+  }
+}
+.weo-link {
+  &:before {
+    content: $weo-link; 
+  }
+}
+.weo-link-2 {
+  &:before {
+    content: $weo-link-2; 
+  }
+}
+.weo-link-broken {
+  &:before {
+    content: $weo-link-broken; 
+  }
+}
+.weo-list {
+  &:before {
+    content: $weo-list; 
+  }
+}
+.weo-list-add {
+  &:before {
+    content: $weo-list-add; 
+  }
+}
+.weo-list-check {
+  &:before {
+    content: $weo-list-check; 
+  }
+}
+.weo-location {
+  &:before {
+    content: $weo-location; 
+  }
+}
+.weo-location-off {
+  &:before {
+    content: $weo-location-off; 
+  }
+}
+.weo-lock {
+  &:before {
+    content: $weo-lock; 
+  }
+}
+.weo-lock-open {
+  &:before {
+    content: $weo-lock-open; 
+  }
+}
+.weo-magic-wand {
+  &:before {
+    content: $weo-magic-wand; 
+  }
+}
+.weo-magnet {
+  &:before {
+    content: $weo-magnet; 
+  }
+}
+.weo-mail {
+  &:before {
+    content: $weo-mail; 
+  }
+}
+.weo-mail-add {
+  &:before {
+    content: $weo-mail-add; 
+  }
+}
+.weo-mail-at {
+  &:before {
+    content: $weo-mail-at; 
+  }
+}
+.weo-mail-open {
+  &:before {
+    content: $weo-mail-open; 
+  }
+}
+.weo-male {
+  &:before {
+    content: $weo-male; 
+  }
+}
+.weo-man {
+  &:before {
+    content: $weo-man; 
+  }
+}
+.weo-map {
+  &:before {
+    content: $weo-map; 
+  }
+}
+.weo-menu {
+  &:before {
+    content: $weo-menu; 
+  }
+}
+.weo-message {
+  &:before {
+    content: $weo-message; 
+  }
+}
+.weo-message-outline {
+  &:before {
+    content: $weo-message-outline; 
+  }
+}
+.weo-message-text {
+  &:before {
+    content: $weo-message-text; 
+  }
+}
+.weo-microphone {
+  &:before {
+    content: $weo-microphone; 
+  }
+}
+.weo-microphone-off {
+  &:before {
+    content: $weo-microphone-off; 
+  }
+}
+.weo-milk-carton {
+  &:before {
+    content: $weo-milk-carton; 
+  }
+}
+.weo-money {
+  &:before {
+    content: $weo-money; 
+  }
+}
+.weo-monitor {
+  &:before {
+    content: $weo-monitor; 
+  }
+}
+.weo-more-horizontal {
+  &:before {
+    content: $weo-more-horizontal; 
+  }
+}
+.weo-more-vertical {
+  &:before {
+    content: $weo-more-vertical; 
+  }
+}
+.weo-motorcycle {
+  &:before {
+    content: $weo-motorcycle; 
+  }
+}
+.weo-mouse {
+  &:before {
+    content: $weo-mouse; 
+  }
+}
+.weo-mousic {
+  &:before {
+    content: $weo-mousic; 
+  }
+}
+.weo-move-backward {
+  &:before {
+    content: $weo-move-backward; 
+  }
+}
+.weo-move-forward {
+  &:before {
+    content: $weo-move-forward; 
+  }
+}
+.weo-music-2 {
+  &:before {
+    content: $weo-music-2; 
+  }
+}
+.weo-music-list {
+  &:before {
+    content: $weo-music-list; 
+  }
+}
+.weo-navigation {
+  &:before {
+    content: $weo-navigation; 
+  }
+}
+.weo-newspaper {
+  &:before {
+    content: $weo-newspaper; 
+  }
+}
+.weo-notification {
+  &:before {
+    content: $weo-notification; 
+  }
+}
+.weo-notification-off {
+  &:before {
+    content: $weo-notification-off; 
+  }
+}
+.weo-notification-ringing {
+  &:before {
+    content: $weo-notification-ringing; 
+  }
+}
+.weo-notification-snooze {
+  &:before {
+    content: $weo-notification-snooze; 
+  }
+}
+.weo-notification-time {
+  &:before {
+    content: $weo-notification-time; 
+  }
+}
+.weo-nuclear {
+  &:before {
+    content: $weo-nuclear; 
+  }
+}
+.weo-paint-roller {
+  &:before {
+    content: $weo-paint-roller; 
+  }
+}
+.weo-paper-box {
+  &:before {
+    content: $weo-paper-box; 
+  }
+}
+.weo-paper-cup {
+  &:before {
+    content: $weo-paper-cup; 
+  }
+}
+.weo-pause {
+  &:before {
+    content: $weo-pause; 
+  }
+}
+.weo-pause-circle {
+  &:before {
+    content: $weo-pause-circle; 
+  }
+}
+.weo-pen {
+  &:before {
+    content: $weo-pen; 
+  }
+}
+.weo-pent {
+  &:before {
+    content: $weo-pent; 
+  }
+}
+.weo-phone {
+  &:before {
+    content: $weo-phone; 
+  }
+}
+.weo-phone-hang-up {
+  &:before {
+    content: $weo-phone-hang-up; 
+  }
+}
+.weo-phone-incoming {
+  &:before {
+    content: $weo-phone-incoming; 
+  }
+}
+.weo-phone-missed {
+  &:before {
+    content: $weo-phone-missed; 
+  }
+}
+.weo-phone-off {
+  &:before {
+    content: $weo-phone-off; 
+  }
+}
+.weo-phone-outgoing {
+  &:before {
+    content: $weo-phone-outgoing; 
+  }
+}
+.weo-phone-talking {
+  &:before {
+    content: $weo-phone-talking; 
+  }
+}
+.weo-photo {
+  &:before {
+    content: $weo-photo; 
+  }
+}
+.weo-pie-chart {
+  &:before {
+    content: $weo-pie-chart; 
+  }
+}
+.weo-pig {
+  &:before {
+    content: $weo-pig; 
+  }
+}
+.weo-piggy-bank {
+  &:before {
+    content: $weo-piggy-bank; 
+  }
+}
+.weo-pin {
+  &:before {
+    content: $weo-pin; 
+  }
+}
+.weo-pizza {
+  &:before {
+    content: $weo-pizza; 
+  }
+}
+.weo-play {
+  &:before {
+    content: $weo-play; 
+  }
+}
+.weo-play-circle {
+  &:before {
+    content: $weo-play-circle; 
+  }
+}
+.weo-playlist {
+  &:before {
+    content: $weo-playlist; 
+  }
+}
+.weo-plug {
+  &:before {
+    content: $weo-plug; 
+  }
+}
+.weo-popsicle {
+  &:before {
+    content: $weo-popsicle; 
+  }
+}
+.weo-position {
+  &:before {
+    content: $weo-position; 
+  }
+}
+.weo-post {
+  &:before {
+    content: $weo-post; 
+  }
+}
+.weo-post-add {
+  &:before {
+    content: $weo-post-add; 
+  }
+}
+.weo-power {
+  &:before {
+    content: $weo-power; 
+  }
+}
+.weo-profile-circle {
+  &:before {
+    content: $weo-profile-circle; 
+  }
+}
+.weo-public {
+  &:before {
+    content: $weo-public; 
+  }
+}
+.weo-qrcode {
+  &:before {
+    content: $weo-qrcode; 
+  }
+}
+.weo-quote {
+  &:before {
+    content: $weo-quote; 
+  }
+}
+.weo-radar-scan {
+  &:before {
+    content: $weo-radar-scan; 
+  }
+}
+.weo-radio {
+  &:before {
+    content: $weo-radio; 
+  }
+}
+.weo-redo {
+  &:before {
+    content: $weo-redo; 
+  }
+}
+.weo-refresh {
+  &:before {
+    content: $weo-refresh; 
+  }
+}
+.weo-remove {
+  &:before {
+    content: $weo-remove; 
+  }
+}
+.weo-remove-circle {
+  &:before {
+    content: $weo-remove-circle; 
+  }
+}
+.weo-remove-square {
+  &:before {
+    content: $weo-remove-square; 
+  }
+}
+.weo-repeat {
+  &:before {
+    content: $weo-repeat; 
+  }
+}
+.weo-repeat-single {
+  &:before {
+    content: $weo-repeat-single; 
+  }
+}
+.weo-report {
+  &:before {
+    content: $weo-report; 
+  }
+}
+.weo-rewind {
+  &:before {
+    content: $weo-rewind; 
+  }
+}
+.weo-ring {
+  &:before {
+    content: $weo-ring; 
+  }
+}
+.weo-roadsign {
+  &:before {
+    content: $weo-roadsign; 
+  }
+}
+.weo-rocket {
+  &:before {
+    content: $weo-rocket; 
+  }
+}
+.weo-rocket-fly {
+  &:before {
+    content: $weo-rocket-fly; 
+  }
+}
+.weo-rotate {
+  &:before {
+    content: $weo-rotate; 
+  }
+}
+.weo-rss-feed {
+  &:before {
+    content: $weo-rss-feed; 
+  }
+}
+.weo-ruler {
+  &:before {
+    content: $weo-ruler; 
+  }
+}
+.weo-scissor {
+  &:before {
+    content: $weo-scissor; 
+  }
+}
+.weo-search {
+  &:before {
+    content: $weo-search; 
+  }
+}
+.weo-security {
+  &:before {
+    content: $weo-security; 
+  }
+}
+.weo-security-check {
+  &:before {
+    content: $weo-security-check; 
+  }
+}
+.weo-security-danger {
+  &:before {
+    content: $weo-security-danger; 
+  }
+}
+.weo-security-off {
+  &:before {
+    content: $weo-security-off; 
+  }
+}
+.weo-send {
+  &:before {
+    content: $weo-send; 
+  }
+}
+.weo-send-2 {
+  &:before {
+    content: $weo-send-2; 
+  }
+}
+.weo-setting {
+  &:before {
+    content: $weo-setting; 
+  }
+}
+.weo-setting-2 {
+  &:before {
+    content: $weo-setting-2; 
+  }
+}
+.weo-sever {
+  &:before {
+    content: $weo-sever; 
+  }
+}
+.weo-shapes {
+  &:before {
+    content: $weo-shapes; 
+  }
+}
+.weo-share {
+  &:before {
+    content: $weo-share; 
+  }
+}
+.weo-share-2 {
+  &:before {
+    content: $weo-share-2; 
+  }
+}
+.weo-shoes {
+  &:before {
+    content: $weo-shoes; 
+  }
+}
+.weo-shopping-basket {
+  &:before {
+    content: $weo-shopping-basket; 
+  }
+}
+.weo-shopping-cart {
+  &:before {
+    content: $weo-shopping-cart; 
+  }
+}
+.weo-shuffle {
+  &:before {
+    content: $weo-shuffle; 
+  }
+}
+.weo-sign-in {
+  &:before {
+    content: $weo-sign-in; 
+  }
+}
+.weo-sing-out {
+  &:before {
+    content: $weo-sing-out; 
+  }
+}
+.weo-skip-back {
+  &:before {
+    content: $weo-skip-back; 
+  }
+}
+.weo-skip-forward {
+  &:before {
+    content: $weo-skip-forward; 
+  }
+}
+.weo-skull {
+  &:before {
+    content: $weo-skull; 
+  }
+}
+.weo-slash {
+  &:before {
+    content: $weo-slash; 
+  }
+}
+.weo-slice {
+  &:before {
+    content: $weo-slice; 
+  }
+}
+.weo-snow {
+  &:before {
+    content: $weo-snow; 
+  }
+}
+.weo-sofa {
+  &:before {
+    content: $weo-sofa; 
+  }
+}
+.weo-sound {
+  &:before {
+    content: $weo-sound; 
+  }
+}
+.weo-sox {
+  &:before {
+    content: $weo-sox; 
+  }
+}
+.weo-speaker {
+  &:before {
+    content: $weo-speaker; 
+  }
+}
+.weo-star {
+  &:before {
+    content: $weo-star; 
+  }
+}
+.weo-star-helf {
+  &:before {
+    content: $weo-star-helf; 
+  }
+}
+.weo-star-off {
+  &:before {
+    content: $weo-star-off; 
+  }
+}
+.weo-sticker {
+  &:before {
+    content: $weo-sticker; 
+  }
+}
+.weo-stop {
+  &:before {
+    content: $weo-stop; 
+  }
+}
+.weo-stop-circle {
+  &:before {
+    content: $weo-stop-circle; 
+  }
+}
+.weo-store {
+  &:before {
+    content: $weo-store; 
+  }
+}
+.weo-store-2 {
+  &:before {
+    content: $weo-store-2; 
+  }
+}
+.weo-swap {
+  &:before {
+    content: $weo-swap; 
+  }
+}
+.weo-switch {
+  &:before {
+    content: $weo-switch; 
+  }
+}
+.weo-sync {
+  &:before {
+    content: $weo-sync; 
+  }
+}
+.weo-tablet {
+  &:before {
+    content: $weo-tablet; 
+  }
+}
+.weo-tag {
+  &:before {
+    content: $weo-tag; 
+  }
+}
+.weo-target {
+  &:before {
+    content: $weo-target; 
+  }
+}
+.weo-text {
+  &:before {
+    content: $weo-text; 
+  }
+}
+.weo-text_format {
+  &:before {
+    content: $weo-text_format; 
+  }
+}
+.weo-text-align-center {
+  &:before {
+    content: $weo-text-align-center; 
+  }
+}
+.weo-text-align-juastify {
+  &:before {
+    content: $weo-text-align-juastify; 
+  }
+}
+.weo-text-align-left {
+  &:before {
+    content: $weo-text-align-left; 
+  }
+}
+.weo-text-align-right {
+  &:before {
+    content: $weo-text-align-right; 
+  }
+}
+.weo-texture {
+  &:before {
+    content: $weo-texture; 
+  }
+}
+.weo-thermometer {
+  &:before {
+    content: $weo-thermometer; 
+  }
+}
+.weo-ticket {
+  &:before {
+    content: $weo-ticket; 
+  }
+}
+.weo-time {
+  &:before {
+    content: $weo-time; 
+  }
+}
+.weo-time-off {
+  &:before {
+    content: $weo-time-off; 
+  }
+}
+.weo-timer {
+  &:before {
+    content: $weo-timer; 
+  }
+}
+.weo-tool {
+  &:before {
+    content: $weo-tool; 
+  }
+}
+.weo-transform {
+  &:before {
+    content: $weo-transform; 
+  }
+}
+.weo-Tree {
+  &:before {
+    content: $weo-Tree; 
+  }
+}
+.weo-trending-down {
+  &:before {
+    content: $weo-trending-down; 
+  }
+}
+.weo-trending-up {
+  &:before {
+    content: $weo-trending-up; 
+  }
+}
+.weo-trophy {
+  &:before {
+    content: $weo-trophy; 
+  }
+}
+.weo-truck {
+  &:before {
+    content: $weo-truck; 
+  }
+}
+.weo-tune {
+  &:before {
+    content: $weo-tune; 
+  }
+}
+.weo-tune-circle {
+  &:before {
+    content: $weo-tune-circle; 
+  }
+}
+.weo-tune-vertical {
+  &:before {
+    content: $weo-tune-vertical; 
+  }
+}
+.weo-tune-vertical-circle {
+  &:before {
+    content: $weo-tune-vertical-circle; 
+  }
+}
+.weo-tv {
+  &:before {
+    content: $weo-tv; 
+  }
+}
+.weo-umbrella {
+  &:before {
+    content: $weo-umbrella; 
+  }
+}
+.weo-underwear {
+  &:before {
+    content: $weo-underwear; 
+  }
+}
+.weo-undo {
+  &:before {
+    content: $weo-undo; 
+  }
+}
+.weo-update {
+  &:before {
+    content: $weo-update; 
+  }
+}
+.weo-upload {
+  &:before {
+    content: $weo-upload; 
+  }
+}
+.weo-upload-cloud {
+  &:before {
+    content: $weo-upload-cloud; 
+  }
+}
+.weo-usb {
+  &:before {
+    content: $weo-usb; 
+  }
+}
+.weo-user {
+  &:before {
+    content: $weo-user; 
+  }
+}
+.weo-user-add {
+  &:before {
+    content: $weo-user-add; 
+  }
+}
+.weo-user-check {
+  &:before {
+    content: $weo-user-check; 
+  }
+}
+.weo-user-error {
+  &:before {
+    content: $weo-user-error; 
+  }
+}
+.weo-user-list {
+  &:before {
+    content: $weo-user-list; 
+  }
+}
+.weo-user-love {
+  &:before {
+    content: $weo-user-love; 
+  }
+}
+.weo-users {
+  &:before {
+    content: $weo-users; 
+  }
+}
+.weo-users-add {
+  &:before {
+    content: $weo-users-add; 
+  }
+}
+.weo-users-talk {
+  &:before {
+    content: $weo-users-talk; 
+  }
+}
+.weo-vector {
+  &:before {
+    content: $weo-vector; 
+  }
+}
+.weo-video {
+  &:before {
+    content: $weo-video; 
+  }
+}
+.weo-video-cam {
+  &:before {
+    content: $weo-video-cam; 
+  }
+}
+.weo-video-cam-off {
+  &:before {
+    content: $weo-video-cam-off; 
+  }
+}
+.weo-volume-down {
+  &:before {
+    content: $weo-volume-down; 
+  }
+}
+.weo-volume-mute {
+  &:before {
+    content: $weo-volume-mute; 
+  }
+}
+.weo-volume-off {
+  &:before {
+    content: $weo-volume-off; 
+  }
+}
+.weo-volume-up {
+  &:before {
+    content: $weo-volume-up; 
+  }
+}
+.weo-watch {
+  &:before {
+    content: $weo-watch; 
+  }
+}
+.weo-water {
+  &:before {
+    content: $weo-water; 
+  }
+}
+.weo-wc {
+  &:before {
+    content: $weo-wc; 
+  }
+}
+.weo-weathersunny {
+  &:before {
+    content: $weo-weathersunny; 
+  }
+}
+.weo-weather-downpour {
+  &:before {
+    content: $weo-weather-downpour; 
+  }
+}
+.weo-weather-night {
+  &:before {
+    content: $weo-weather-night; 
+  }
+}
+.weo-weather-partly-night {
+  &:before {
+    content: $weo-weather-partly-night; 
+  }
+}
+.weo-weather-partly-sunny {
+  &:before {
+    content: $weo-weather-partly-sunny; 
+  }
+}
+.weo-weather-shower {
+  &:before {
+    content: $weo-weather-shower; 
+  }
+}
+.weo-weather-stormy {
+  &:before {
+    content: $weo-weather-stormy; 
+  }
+}
+.weo-weather-windy {
+  &:before {
+    content: $weo-weather-windy; 
+  }
+}
+.weo-weather-windy-cloudy {
+  &:before {
+    content: $weo-weather-windy-cloudy; 
+  }
+}
+.weo-wheelchair {
+  &:before {
+    content: $weo-wheelchair; 
+  }
+}
+.weo-wifi {
+  &:before {
+    content: $weo-wifi; 
+  }
+}
+.weo-wifi-2 {
+  &:before {
+    content: $weo-wifi-2; 
+  }
+}
+.weo-wifi-low {
+  &:before {
+    content: $weo-wifi-low; 
+  }
+}
+.weo-wifi-off {
+  &:before {
+    content: $weo-wifi-off; 
+  }
+}
+.weo-window-add {
+  &:before {
+    content: $weo-window-add; 
+  }
+}
+.weo-wine {
+  &:before {
+    content: $weo-wine; 
+  }
+}
+.weo-woman {
+  &:before {
+    content: $weo-woman; 
+  }
+}
+.weo-zoom-in {
+  &:before {
+    content: $weo-zoom-in; 
+  }
+}
+.weo-zoom-out {
+  &:before {
+    content: $weo-zoom-out; 
+  }
+}
+.weo-pie-chart1 {
+  &:before {
+    content: $weo-pie-chart1; 
+  }
+}
+.weo-terminal {
+  &:before {
+    content: $weo-terminal; 
+  }
+}
+.weo-amazon {
+  &:before {
+    content: $weo-amazon; 
+  }
+}
+.weo-google {
+  &:before {
+    content: $weo-google; 
+  }
+}
+.weo-google2 {
+  &:before {
+    content: $weo-google2; 
+  }
+}
+.weo-google3 {
+  &:before {
+    content: $weo-google3; 
+  }
+}
+.weo-google-plus2 {
+  &:before {
+    content: $weo-google-plus2; 
+  }
+}
+.weo-google-plus3 {
+  &:before {
+    content: $weo-google-plus3; 
+  }
+}
+.weo-hangouts {
+  &:before {
+    content: $weo-hangouts; 
+  }
+}
+.weo-google-drive {
+  &:before {
+    content: $weo-google-drive; 
+  }
+}
+.weo-facebook {
+  &:before {
+    content: $weo-facebook; 
+  }
+}
+.weo-facebook2 {
+  &:before {
+    content: $weo-facebook2; 
+  }
+}
+.weo-instagram {
+  &:before {
+    content: $weo-instagram; 
+  }
+}
+.weo-whatsapp {
+  &:before {
+    content: $weo-whatsapp; 
+  }
+}
+.weo-spotify {
+  &:before {
+    content: $weo-spotify; 
+  }
+}
+.weo-telegram {
+  &:before {
+    content: $weo-telegram; 
+  }
+}
+.weo-twitter {
+  &:before {
+    content: $weo-twitter; 
+  }
+}
+.weo-vine {
+  &:before {
+    content: $weo-vine; 
+  }
+}
+.weo-vk {
+  &:before {
+    content: $weo-vk; 
+  }
+}
+.weo-renren {
+  &:before {
+    content: $weo-renren; 
+  }
+}
+.weo-sina-weibo {
+  &:before {
+    content: $weo-sina-weibo; 
+  }
+}
+.weo-rss {
+  &:before {
+    content: $weo-rss; 
+  }
+}
+.weo-rss2 {
+  &:before {
+    content: $weo-rss2; 
+  }
+}
+.weo-youtube {
+  &:before {
+    content: $weo-youtube; 
+  }
+}
+.weo-youtube2 {
+  &:before {
+    content: $weo-youtube2; 
+  }
+}
+.weo-twitch {
+  &:before {
+    content: $weo-twitch; 
+  }
+}
+.weo-vimeo {
+  &:before {
+    content: $weo-vimeo; 
+  }
+}
+.weo-vimeo2 {
+  &:before {
+    content: $weo-vimeo2; 
+  }
+}
+.weo-lanyrd {
+  &:before {
+    content: $weo-lanyrd; 
+  }
+}
+.weo-flickr {
+  &:before {
+    content: $weo-flickr; 
+  }
+}
+.weo-flickr2 {
+  &:before {
+    content: $weo-flickr2; 
+  }
+}
+.weo-flickr3 {
+  &:before {
+    content: $weo-flickr3; 
+  }
+}
+.weo-flickr4 {
+  &:before {
+    content: $weo-flickr4; 
+  }
+}
+.weo-dribbble {
+  &:before {
+    content: $weo-dribbble; 
+  }
+}
+.weo-behance {
+  &:before {
+    content: $weo-behance; 
+  }
+}
+.weo-behance2 {
+  &:before {
+    content: $weo-behance2; 
+  }
+}
+.weo-deviantart {
+  &:before {
+    content: $weo-deviantart; 
+  }
+}
+.weo-500px {
+  &:before {
+    content: $weo-500px; 
+  }
+}
+.weo-steam {
+  &:before {
+    content: $weo-steam; 
+  }
+}
+.weo-steam2 {
+  &:before {
+    content: $weo-steam2; 
+  }
+}
+.weo-dropbox {
+  &:before {
+    content: $weo-dropbox; 
+  }
+}
+.weo-onedrive {
+  &:before {
+    content: $weo-onedrive; 
+  }
+}
+.weo-github {
+  &:before {
+    content: $weo-github; 
+  }
+}
+.weo-npm {
+  &:before {
+    content: $weo-npm; 
+  }
+}
+.weo-basecamp {
+  &:before {
+    content: $weo-basecamp; 
+  }
+}
+.weo-trello {
+  &:before {
+    content: $weo-trello; 
+  }
+}
+.weo-wordpress {
+  &:before {
+    content: $weo-wordpress; 
+  }
+}
+.weo-joomla {
+  &:before {
+    content: $weo-joomla; 
+  }
+}
+.weo-ello {
+  &:before {
+    content: $weo-ello; 
+  }
+}
+.weo-blogger {
+  &:before {
+    content: $weo-blogger; 
+  }
+}
+.weo-blogger2 {
+  &:before {
+    content: $weo-blogger2; 
+  }
+}
+.weo-tumblr {
+  &:before {
+    content: $weo-tumblr; 
+  }
+}
+.weo-tumblr2 {
+  &:before {
+    content: $weo-tumblr2; 
+  }
+}
+.weo-yahoo {
+  &:before {
+    content: $weo-yahoo; 
+  }
+}
+.weo-yahoo2 {
+  &:before {
+    content: $weo-yahoo2; 
+  }
+}
+.weo-tux {
+  &:before {
+    content: $weo-tux; 
+  }
+}
+.weo-appleinc {
+  &:before {
+    content: $weo-appleinc; 
+  }
+}
+.weo-finder {
+  &:before {
+    content: $weo-finder; 
+  }
+}
+.weo-android {
+  &:before {
+    content: $weo-android; 
+  }
+}
+.weo-windows {
+  &:before {
+    content: $weo-windows; 
+  }
+}
+.weo-windows8 {
+  &:before {
+    content: $weo-windows8; 
+  }
+}
+.weo-soundcloud {
+  &:before {
+    content: $weo-soundcloud; 
+  }
+}
+.weo-soundcloud2 {
+  &:before {
+    content: $weo-soundcloud2; 
+  }
+}
+.weo-skype {
+  &:before {
+    content: $weo-skype; 
+  }
+}
+.weo-reddit {
+  &:before {
+    content: $weo-reddit; 
+  }
+}
+.weo-hackernews {
+  &:before {
+    content: $weo-hackernews; 
+  }
+}
+.weo-wikipedia {
+  &:before {
+    content: $weo-wikipedia; 
+  }
+}
+.weo-linkedin {
+  &:before {
+    content: $weo-linkedin; 
+  }
+}
+.weo-linkedin2 {
+  &:before {
+    content: $weo-linkedin2; 
+  }
+}
+.weo-lastfm {
+  &:before {
+    content: $weo-lastfm; 
+  }
+}
+.weo-lastfm2 {
+  &:before {
+    content: $weo-lastfm2; 
+  }
+}
+.weo-delicious {
+  &:before {
+    content: $weo-delicious; 
+  }
+}
+.weo-stumbleupon {
+  &:before {
+    content: $weo-stumbleupon; 
+  }
+}
+.weo-stumbleupon2 {
+  &:before {
+    content: $weo-stumbleupon2; 
+  }
+}
+.weo-stackoverflow {
+  &:before {
+    content: $weo-stackoverflow; 
+  }
+}
+.weo-pinterest {
+  &:before {
+    content: $weo-pinterest; 
+  }
+}
+.weo-pinterest2 {
+  &:before {
+    content: $weo-pinterest2; 
+  }
+}
+.weo-xing {
+  &:before {
+    content: $weo-xing; 
+  }
+}
+.weo-xing2 {
+  &:before {
+    content: $weo-xing2; 
+  }
+}
+.weo-flattr {
+  &:before {
+    content: $weo-flattr; 
+  }
+}
+.weo-foursquare {
+  &:before {
+    content: $weo-foursquare; 
+  }
+}
+.weo-yelp {
+  &:before {
+    content: $weo-yelp; 
+  }
+}
+.weo-paypal {
+  &:before {
+    content: $weo-paypal; 
+  }
+}
+.weo-chrome {
+  &:before {
+    content: $weo-chrome; 
+  }
+}
+.weo-firefox {
+  &:before {
+    content: $weo-firefox; 
+  }
+}
+.weo-IE {
+  &:before {
+    content: $weo-IE; 
+  }
+}
+.weo-edge {
+  &:before {
+    content: $weo-edge; 
+  }
+}
+.weo-safari {
+  &:before {
+    content: $weo-safari; 
+  }
+}
+.weo-opera {
+  &:before {
+    content: $weo-opera; 
+  }
+}
+.weo-file-pdf {
+  &:before {
+    content: $weo-file-pdf; 
+  }
+}
+.weo-file-openoffice {
+  &:before {
+    content: $weo-file-openoffice; 
+  }
+}
+.weo-file-word {
+  &:before {
+    content: $weo-file-word; 
+  }
+}
+.weo-file-excel {
+  &:before {
+    content: $weo-file-excel; 
+  }
+}
+.weo-html-five {
+  &:before {
+    content: $weo-html-five; 
+  }
+}
+.weo-html-five2 {
+  &:before {
+    content: $weo-html-five2; 
+  }
+}
+.weo-css3 {
+  &:before {
+    content: $weo-css3; 
+  }
+}
+.weo-git {
+  &:before {
+    content: $weo-git; 
+  }
+}
+.weo-codepen {
+  &:before {
+    content: $weo-codepen; 
+  }
+}
+.weo-svg {
+  &:before {
+    content: $weo-svg; 
+  }
+}
+
