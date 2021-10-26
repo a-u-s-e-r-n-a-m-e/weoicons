@@ -1,5 +1,7 @@
 name: Create Archive
-on: [push]
+on:
+  if: ${{ startsWith(github.ref, 'refs/tags/') }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
