@@ -17,4 +17,3 @@ jobs:
       with:
         artifacts: "latest.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
-        REPO_OWNER: a-u-s-e-r-n-a-m-e
